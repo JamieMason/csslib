@@ -1,0 +1,5 @@
+// => .foo { padding: quadruple(3.2px); }
+// <= .foo { padding: 12.8px; }
+@function quadruple($inuit-number) {
+    @return round($inuit-number * 4);
+}

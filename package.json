@@ -1,0 +1,24 @@
+{
+  "name": "csslib",
+  "description": "A customised fork of inuitcss which I use on most projects",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jamie Mason",
+    "email": "github@foldleft.io"
+  },
+  "bugs": {
+    "url": "https://github.com/JamieMason/csslib/issues"
+  },
+  "homepage": "https://github.com/JamieMason/csslib#readme",
+  "keywords": [
+    "css",
+    "inuitcss",
+    "sass"
+  ],
+  "license": "MIT",
+  "main": "_all.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JamieMason/csslib.git"
+  }
+}

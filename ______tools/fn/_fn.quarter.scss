@@ -1,0 +1,5 @@
+// => .foo { padding: quarter(3.2px); }
+// <= .foo { padding: 0.8px; }
+@function quarter($inuit-number) {
+    @return round($inuit-number / 4);
+}
