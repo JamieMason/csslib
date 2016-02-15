@@ -1,0 +1,19 @@
+// $z-indexes:
+//     c-back,
+//     c-middle,
+//     c-top,
+//     c-even-higher;
+
+// => .c-even-higher { z-index: get-z-index(c-even-higher); }
+// <= .c-even-higher { z-index: 40; }
+
+$z-indexes: foo, bar, baz !default;
+
+@function get-z-index($element) {
+    $index: index($z-indexes, $element);
+    @if $index {
+        @return round($index * 10);
+    }
+    @error 'Cannot stack "#{$element}", it is not in the $z-indexes array';
+    @return null;
+}

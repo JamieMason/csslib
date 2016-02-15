@@ -206,3 +206,4 @@
 | $inuit-enable-responsive-paddings--large | false |
 | $inuit-enable-responsive-paddings--huge | false |
 | $inuit-enable-responsive-paddings--none | false |
+| $z-indexes | foo, bar, baz |
