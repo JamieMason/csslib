@@ -1,7 +1,7 @@
 {
   "name": "csslib",
   "description": "A customised fork of inuitcss which I use on most projects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Jamie Mason",
     "email": "github@foldleft.io"
